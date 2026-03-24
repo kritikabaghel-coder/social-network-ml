@@ -1,0 +1,40 @@
+SOCIAL NETWORK GRAPH INFORMATION
+============================================================
+
+Nodes: 30
+Edges: 265
+Density: 0.609
+Connected Components: 1
+
+NODE INFORMATION:
+------------------------------------------------------------
+Post 1 (FAKE): 12 connections
+Post 2 (REAL): 19 connections
+Post 3 (FAKE): 29 connections
+Post 4 (REAL): 19 connections
+Post 5 (REAL): 19 connections
+Post 6 (FAKE): 12 connections
+Post 7 (REAL): 19 connections
+Post 8 (REAL): 19 connections
+Post 9 (FAKE): 12 connections
+Post 10 (REAL): 19 connections
+Post 11 (FAKE): 12 connections
+Post 12 (REAL): 19 connections
+Post 13 (REAL): 29 connections
+Post 14 (REAL): 19 connections
+Post 15 (FAKE): 12 connections
+Post 16 (FAKE): 12 connections
+Post 17 (REAL): 19 connections
+Post 18 (REAL): 19 connections
+Post 19 (FAKE): 12 connections
+Post 20 (REAL): 19 connections
+Post 21 (FAKE): 12 connections
+Post 22 (REAL): 19 connections
+Post 23 (FAKE): 29 connections
+Post 24 (REAL): 19 connections
+Post 25 (REAL): 19 connections
+Post 26 (FAKE): 12 connections
+Post 27 (REAL): 19 connections
+Post 28 (REAL): 19 connections
+Post 29 (FAKE): 12 connections
+Post 30 (REAL): 19 connections
