@@ -4,6 +4,14 @@
 [![scikit-learn](https://img.shields.io/badge/ML-scikit--learn-orange)](https://scikit-learn.org/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
+## 🌐 Live Demo
+
+**[Try the app here!](https://social-network-ml-jofnq9nhcfbgw3gf7dsaga.streamlit.app/)** 🎯
+
+Enter article text to get real-time fake news predictions powered by machine learning.
+
+---
+
 A machine learning project that detects fake news by combining **social network analysis** with **NLP text classification**. Includes data exploration, graph analysis, centrality measures, and a trained ML model.
 
 ## 🎯 Problem
