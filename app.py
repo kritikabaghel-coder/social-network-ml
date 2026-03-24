@@ -25,24 +25,19 @@ st.set_page_config(
 # LOAD MODEL AND VECTORIZER
 # ============================================================================
 
-@st.cache_resource
+
+   @st.cache_resource
 def load_model_and_vectorizer():
     """Load trained model and vectorizer once at startup"""
     try:
-        # Determine if running locally or on Streamlit Cloud
-        model_path = Path(__file__).parent / "results" / "model.pkl"
-        vectorizer_path = Path(__file__).parent / "results" / "vectorizer.pkl"
-        
-        with open(model_path, 'rb') as f:
-            model = pickle.load(f)
-        
-        with open(vectorizer_path, 'rb') as f:
-            vectorizer = pickle.load(f)
-        
+        model = pickle.load(open("results/model.pkl", "rb"))
+        vectorizer = pickle.load(open("results/vectorizer.pkl", "rb"))
         return model, vectorizer, True
+
     except Exception as e:
         st.error(f"Error loading model: {e}")
         return None, None, False
+        
 
 @st.cache_data
 def load_metrics():
