@@ -25,8 +25,7 @@ st.set_page_config(
 # LOAD MODEL AND VECTORIZER
 # ============================================================================
 
-
-   @st.cache_resource
+@st.cache_resource
 def load_model_and_vectorizer():
     """Load trained model and vectorizer once at startup"""
     try:
@@ -37,7 +36,7 @@ def load_model_and_vectorizer():
     except Exception as e:
         st.error(f"Error loading model: {e}")
         return None, None, False
-        
+
 
 @st.cache_data
 def load_metrics():
