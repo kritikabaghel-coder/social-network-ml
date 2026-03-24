@@ -48,6 +48,12 @@ data/raw/*.zip
 *.pkl
 *.joblib
 *.h5
+
+# EXCEPTION: Include trained model files needed for deployment
+!results/model.pkl
+!results/vectorizer.pkl
+!results/metrics.json
+!results/metrics.csv
 *.model
 *.pt
 *.pth
